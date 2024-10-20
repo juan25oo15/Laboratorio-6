@@ -3,9 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Armas</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<body>
+<body class="bg-danger">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Index</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="pagina1.html">Página 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pagina2.html">Página 2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bg-secondary" href="pagina3.html">Página 3</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+
+      <h1 class="text-center">Armas utilizables en el juego</h1>
+        <p class="text-center">En Cave Story, las armas son variadas y se pueden encontrar y mejorar a lo largo del juego.<br>Cada una tiene un estilo único y ofrece diferentes estrategias para combatir enemigos y jefes.</p>
+        <h4 class="text-center"> </h4>
+
+      <div class="container mt-5">
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Polar Star
+                        </button>
+                    </h2>
+                </div>
     
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <img src="../img/PolarStar.jpg" class="img-fluid" alt="Imagen 1">
+                        <p><br><strong>La Estrella Polar </strong>(ポーラスター Pōra Sutā) es una arma adquirida en la Primera Cueva de Cave Story.<br>Es el primer ítem necesario que el jugador debe recoger para poder atravesar la cueva.<br>La Estrella Polar fue creada por el Armero Ermitaño, el cual se puede encontrar en su morada ubicada en la Primera Cueva.</p>
+                        <h5>Niveles</h5>
+                        <ul>
+                            <li><p><strong>Nivel 1: </strong>Dispara pequeñas balas. Exp:10</p></li>
+                            <li><p><strong>Nivel 2: </strong>Dispara balas grandes y rápidas. Exp:20</p></li>
+                            <li><p><strong>Nivel 3: </strong>Dispara balas potentes y rectangulares. Exp:20</p></li>
+                        </ul>
+                        <br><h5>Cambio de armas</h5>
+                        <ul>
+                        <li><p><strong>Spur:</strong> Si se conserva la Polar Star hasta la explosión en Pueblo Mimiga y se va a la Cabaña del Ermitaño, el ermitaño te la mejora y te da la Spur.</p></li>
+                        <li><p><strong>Snake:</strong> Si se conserva la Polar Star hasta el Laberinto y entras a la Tienda Gaudi, un Gaudi mejora tu Polar Star y tu Bola de fuego y las fusiona para transformarlas en la Snake.</p></li>
+                        <li><p><strong>Machine Gun:</strong> Si se conserva la Polar Star hasta la batalla con Curly Brace, ella te ofrece cambiar la Polar Star por la Machine Gun, de esta forma se obtiene la Machine Gun.</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Fireball
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <img src="../img/Fireball.jpg" class="img-fluid" alt="Imagen 2">
+                        <p><br><strong>La bola de fuego </strong>(conocida como Fireball en inglés o ファイアボール Faiabōru) es la segunda arma necesaria en Cave Story.<br>Se consigue tras recibir la recompensa de Santa en Villavergel.</p>
+                        <h5>Niveles</h5>
+                        <ul>
+                            <li><p><strong>Nivel 1: </strong>Son pequeñas y amarillas. Exp:10</p></li>
+                            <li><p><strong>Nivel 2: </strong>Son un poco mas rojas y con un rastro. Exp:20</p></li>
+                            <li><p><strong>Nivel 3: </strong>Son azules. Exp:20</p></li>
+                        </ul>
+                        <br><h5>Intercambios disponibles y mejoras</h5>
+                        <ul>
+                        <li><p>El jugador puede intercambiar tu Estrella Polar a Chaba, junto con su Bola de Fuego, en la tienda del Laberinto. Chaba le preguntaría a Quote si puede echarles un vistazo a ambas armas. Al permitirle verlas, Chaba las toma y las combina para formar la Snake. Esta arma combina similares funcionamientos de la Estrella Polar y la Bola de Fuego, y puede ir atravesando las paredes.</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Blade
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <img src="../img/Blade.jpg" class="img-fluid" alt="Imagen 3">
+                        <p><br><strong>La espada </strong> (ブレード Burēdo) es un arma necesaria en Cave Story.<br>Se adquiere en la Zona de Arena, justo antes de ir al Laberinto. La espada perteneció una vez a King.</p>
+                        <h5>Niveles</h5>
+                        <ul>
+                            <li><p><strong>Nivel 1: </strong>Tiene el alcance más largo de los tres niveles. Exp:30</p></li>
+                            <li><p><strong>Nivel 2: </strong>Una espada más grande, su alcance se vuelve más corto que la forma de nivel 1. Exp:60</p></li>
+                            <li><p><strong>Nivel 3: </strong>Un solo disparo produce múltiples cortes cuando golpea a un enemigo.<br>La cantidad de daño que causa varía. En lugar de una espada, aparece el fantasma de King. Exp:NA</p></li>
+                        </ul>
+                        <br><h5>Intercambios disponibles y mejoras</h5>
+                        <ul>
+                        <li><p>La Espada se puede intercambiar en el Muro Exterior por la Némesis. Esto estará disponible para el jugador si Quote trae al Sr. Little de regreso a Little House. Las dos armas se pueden intercambiar hablando con Mr. Little, pero Blade volverá a su forma de nivel 1 si se cambió previamente a Mr. Little por Nemesis.
+                        </p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><h4 class="text-center">Armas especiales</h4>
+
+      <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="../img/Spur.jpg" class="card-img-top" alt="Spur">
+                    <div class="card-body">
+                        <h5 class="card-title">Spur</h5>
+                        <p class="card-text"><strong>El Spur (シュプール Shupūru)</strong> es la versión terminada de la Estrella Polar. Inflige una de las mayores cantidades de daño con un solo disparo en Cave Story. El arma solo se puede obtener dándole la Estrella Polar a Tetsuzou Kamadani cuando Quote regrese a Mimiga Village desde Waterway.
+                            La Spur era el arma que el Armero Ermitaño intentaba crear originalmente, pero Quote le quitó la Estrella Polar inacabada mientras dormía.<br><br>A diferencia de otras armas del juego, el Spur tiene su propia función de carga, lo que hace que el arma sea inmune al daño al bajar de nivel, además de hacer que XP sea innecesario para subir de nivel el arma. Mantener presionado el botón de ataque cargará la energía del Spur.</p>
+                        <a href="https://cavestory.fandom.com/es/wiki/Quote" class="btn btn-primary">Más info de Spur</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="../img/MachineGun.jpg" class="card-img-top" alt="MachineGun">
+                    <div class="card-body">
+                        <h5 class="card-title">Machine Gun</h5>
+                        <p class="card-text"><strong>La Ametralladora </strong> (マシンガン Mashingan) es uno de los tres posibles reemplazos de la Estrella Polar y es el primero disponible.<br><br>Es un arma utilizada por Curly Brace y la usará cuando el jugador pelee contra ella en Sand Zone. Una vez que ella sea derrotada y Quote diga que no es un asesino de mimiga, se ofrecerá a cambiar la Estrella Polar del jugador por la Ametralladora.<br><br>Después de que Curly sea derrotada en Sand Zone Residence, comentará que la Estrella Polar está fuera de forma y se ofrecerá a cambiarla por su ametralladora. Si el jugador rechaza este intercambio, Curly se queda con la ametralladora, pero el jugador podrá aceptarla más tarde.</p>
+                        <a href="https://cavestory.fandom.com/wiki/Machine_Gun" class="btn btn-primary">Más info de Machine Gun</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="../img/MissileLauncher.jpg" class="card-img-top" alt="MissileLauncher">
+                    <div class="card-body">
+                        <h5 class="card-title">Missile Launcher</h5>
+                        <p class="card-text"><strong>El Lanzador de Misiles (ミサイル砲 Misairu-hou)</strong> es un arma opcional que se puede obtener primero en Egg Corridor. Este, junto con Bubbline y Machine Gun, tiene munición limitada. Sin embargo, a diferencia del Bubbline y Machine Gun, su munición se repone manualmente, no automáticamente.<br><br>El Lanzador de Misiles se encuentra en un cofre en la Sala de Observación de Huevos del Corredor de Huevos. Para alcanzarlo, el jugador debe guiar a Quote al nivel más alto del edificio, luego al extremo derecho, donde se encuentra el cofre. Alternativamente, el arma se puede obtener en otros cofres donde se encuentra una mejora de munición de misiles.</p>
+                        <a href="https://cavestory.fandom.com/wiki/Missile_Launcher" class="btn btn-primary">Más info de Missile Launcher</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- jQuery, Popper.js, Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
